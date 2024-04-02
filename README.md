@@ -1,2 +1,1 @@
-# goit-js-hw-06
-Tema 6 JavaScript
+# GoIT JavaScript course homework
