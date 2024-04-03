@@ -13,7 +13,7 @@ ingredients.forEach(function (ingredient) {
   ingredientList.classList.add("item");
   ingredientList.textContent = ingredient;
   list.append(ingredientList);
-  console.log(ingredientList);
+  console.log(ingredientList); //de verificare
 });
 
 

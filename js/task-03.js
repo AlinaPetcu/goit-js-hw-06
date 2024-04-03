@@ -21,7 +21,7 @@ for (const image of images) {
   gallery.append(img);
   console.log(img);
 }
-// Style
+// Style inline
 gallery.style.backgroundColor = '#8FBC8F';
 gallery.style.display = 'flex';
 gallery.style.gap = '25px';

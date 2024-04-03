@@ -13,13 +13,13 @@ let value = document.querySelector("#value");
     function decrement() {
         counterValue -= 1;
         value.textContent = counterValue; 
-        console.log(counterValue)
+        console.log(counterValue) //de verificare
     }
     
     function increment() {
         counterValue += 1;
         value.textContent = counterValue; 
-        console.log(counterValue)
+        console.log(counterValue) //de verificare
     }
 
    

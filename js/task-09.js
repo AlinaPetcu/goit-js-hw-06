@@ -9,7 +9,7 @@ const colorDetail = document.querySelector(".color");
 const handleClick = event => {
   document.body.style.backgroundColor = getRandomHexColor();
   colorDetail.textContent = document.body.style.backgroundColor;
-  console.log(colorDetail.textContent) // de verificare
+  console.log(colorDetail.textContent) //de verificare
 };
 
 button.addEventListener("click", handleClick);

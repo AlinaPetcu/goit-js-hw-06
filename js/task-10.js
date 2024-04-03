@@ -31,14 +31,14 @@ const textInput = document.querySelectorAll("input");
       console.log(boxGeneration, boxGeneration.style.width, boxGeneration.style.heigth, boxGeneration.style.backgroundColor); //de verificare after create
         
     }
-    console.log(boxes)//de verificare after create
+    console.log(boxes) //de verificare after create
     console.log(boxes.children)  //de verificare  after create
     }
   
    function destroyBoxes() {
      boxes.innerHTML = '';
-     console.log(boxes)//de verificare after destroy
-     console.log(boxes.children)//de verificare after destrol
+     console.log(boxes); //de verificare after destroy
+     console.log(boxes.children); //de verificare after destrol
       }
      
   

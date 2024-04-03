@@ -13,8 +13,8 @@ function handleSubmit(event) {
     alert ("Please fill in all the fields!");
   }
 
-  console.log(`Login: ${email}, Password: ${password}`);
+  console.log(`Login: ${email}, Password: ${password}`); //de verificare
   loginData.push({ Login: email, Password: password})
-  console.log(loginData);//de verificare
+  console.log(loginData); //de verificare
   form.reset();
 }
