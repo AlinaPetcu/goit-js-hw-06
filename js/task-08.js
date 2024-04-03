@@ -1,5 +1,5 @@
 
-loginData = [];
+const loginData = [];
 const registerForm = document.querySelector(".login-form");
 registerForm.addEventListener("submit", handleSubmit);
 
@@ -13,8 +13,8 @@ function handleSubmit(event) {
     alert ("Please fill in all the fields!");
   }
 
-    console.log(`Login: ${email}, Password: ${password}`);
-    loginData.push(( Login: "${email}", Password: "${password}"))
-console.log(loginData);
+  console.log(`Login: ${email}, Password: ${password}`);
+  loginData.push({ Login: email, Password: password})
+  console.log(loginData);//de verificare
   form.reset();
 }
